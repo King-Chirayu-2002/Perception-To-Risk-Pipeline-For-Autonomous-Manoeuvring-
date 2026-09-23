@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+build/
+dist/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project-specific
+data/                # raw KITTI sequences (download separately, see README)
+outputs/             # generated run outputs (regenerate by re-running scripts)
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model downloads (MiDaS is fetched via torch.hub at runtime, not stored here)
+torch_hub_cache/

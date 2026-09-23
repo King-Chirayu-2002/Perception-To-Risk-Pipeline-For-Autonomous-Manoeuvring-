@@ -1,0 +1,25 @@
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+ultralytics>=8.0.0
+filterpy>=1.4.5
+scikit-image>=0.21.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+Pillow>=9.5.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
+diffusers>=0.24.0
+lap>=0.4.0
+
+# Notes:
+# - MiDaS (monocular depth) is loaded at runtime via torch.hub from
+#   "intel-isl/MiDaS", so no separate pip package is required; the first
+#   run will download weights automatically (needs an internet connection).
+# - CUDA acceleration is used automatically if a compatible GPU + CUDA
+#   toolkit + matching torch build are available; the pipeline falls back
+#   to CPU otherwise (slower, but functional).
+# - SORT (sort.py) is vendored directly in this repo (GPLv3, Alex Bewley) —
+#   no separate install needed, but see README credits.
