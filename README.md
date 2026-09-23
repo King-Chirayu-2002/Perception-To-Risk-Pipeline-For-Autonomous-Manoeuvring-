@@ -35,7 +35,7 @@ integrated, debuggable system.
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/kitti-autonomous-perception-risk.git
+git clone https://github.com/King-Chirayu-2002/kitti-autonomous-perception-risk.git
 cd kitti-autonomous-perception-risk
 pip install -r requirements.txt
 ```
