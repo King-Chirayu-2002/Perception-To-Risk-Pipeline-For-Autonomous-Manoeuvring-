@@ -129,7 +129,3 @@ scoring into one debuggable, real-time pipeline against real sensor data, not in
 single model being new. Some experimental scripts (diffusion-based future-frame
 prediction) are exploratory and less polished than the core dashboard.
 
-## License
-
-Code in this repository (excluding vendored third-party files, which retain their
-original licenses — see [Credits](#credits)) is available for review and educational use.
